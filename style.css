@@ -1,0 +1,90 @@
+* {
+    padding: 0; 
+    box-sizing: border-box;
+} 
+
+body {
+    padding-top: 2rem;
+    background-color: rgb(23, 23, 23);
+    color: white; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    margin: 0 15rem;
+}  
+ 
+.long {
+    width:100%;
+    height: 1.8rem;
+}
+
+input {
+    padding-left: 10px;
+}
+
+input, label, form {
+    display: block;
+    margin-bottom: 0.5rem; 
+}
+
+form, h1 {
+    margin: 0 auto; 
+    min-width: 700px;
+}
+
+input[type="submit"] {
+    border-radius: 5px;
+    border-color: gray;
+    color: white;
+    background-color: rgb(107, 106, 106);
+    height: 2rem;  
+    cursor: pointer;
+} 
+
+table {
+    font-size: 0.8rem;
+    min-width: 700px;
+}
+
+hr {
+    min-width: 700px;
+}
+
+th {
+    padding-top: 8px;
+    padding-bottom: 16px;
+    border-bottom: 3px solid gray;
+}
+ 
+tr,td {  
+    border-bottom: 3px solid gray;
+    text-align: center;
+    padding:15px ;
+}
+ 
+#success { 
+    height: 1.8rem;
+    border-radius: 5px;
+    width: 100%;
+    background-color: green;
+    display: none;
+    text-align: center;
+}
+
+#failure {
+    height: 1.8rem;
+    border-radius: 5px;
+    width: 100%;
+    background-color: red;
+    display: none;
+    text-align: center;
+}
+
+#removed {
+    height: 1.8rem;
+    border-radius: 5px;
+    width: 100%;
+    background-color: green;
+    display: none;
+    text-align: center;
+}
+ 
+ 

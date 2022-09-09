@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Booklist</title>
+</head>
+
+<body>
+    <main>
+        <h1>Book List</h1>
+        <div id="failure">Fields must not be empty!</div>
+        <div id="success">Book was added successfully!</div>
+        <div id="removed">Book was removed successfully!</div>
+        <form action="">
+            <div>
+                <label for="title">Title</label>
+                <input maxlength="15" class="long" id="title" type="text">
+            </div>
+            <div>
+                <label for="author">Author</label>
+                <input maxlength="15" class="long" id="author" type="text">
+            </div>
+            <div>
+                <label for="ISBN#">ISBN#</label>
+                <input maxlength="13" class="long" id="ISBN#" type="text">
+            </div>
+            <div>
+                <input id="addbook" type="submit" class="long"></button>
+            </div>
+
+        </form>
+    </main>
+    <br>
+    <hr>
+    <table class="long">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>ISBN</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="book-list">
+
+        </tbody>
+    </table>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
